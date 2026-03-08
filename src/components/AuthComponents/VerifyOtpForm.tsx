@@ -91,7 +91,7 @@ export function VerifyOtpForm() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
+            className="cursor-pointer w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
           >
             Submit Code
           </button>
@@ -103,7 +103,7 @@ export function VerifyOtpForm() {
             </p>
             <button
               type="button"
-              className="text-[#fc33a2] text-sm hover:text-[#fc33a2]/80 transition-colors underline underline-offset-2"
+              className="cursor-pointer text-[#fc33a2] text-sm hover:text-[#fc33a2]/80 transition-colors underline underline-offset-2"
             >
               Resend code
             </button>

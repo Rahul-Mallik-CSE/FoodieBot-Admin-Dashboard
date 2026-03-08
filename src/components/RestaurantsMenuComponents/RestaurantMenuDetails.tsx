@@ -42,7 +42,7 @@ const RestaurantMenuDetails = () => {
         <div className="flex items-center gap-3">
           <button
             onClick={() => router.back()}
-            className="text-white hover:text-custom-pink transition-colors"
+            className="cursor-pointer text-white hover:text-custom-pink transition-colors"
           >
             <ArrowLeft className="w-5 h-5" />
           </button>
@@ -67,7 +67,7 @@ const RestaurantMenuDetails = () => {
           <button
             key={cat.name}
             onClick={() => setActiveCategory(cat.name)}
-            className={`text-sm whitespace-nowrap pb-2 border-b-2 transition-colors ${
+            className={`cursor-pointer text-sm whitespace-nowrap pb-2 border-b-2 transition-colors ${
               activeCategory === cat.name
                 ? "border-custom-pink text-custom-pink"
                 : "border-transparent text-muted-foreground hover:text-white"
@@ -100,7 +100,7 @@ const RestaurantMenuDetails = () => {
             <p className="text-sm text-muted-foreground mb-3">{dish.price}</p>
             <button
               onClick={() => handleDishDetails(dish)}
-              className="w-full py-2 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
+              className="cursor-pointer w-full py-2 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
             >
               Details
             </button>
@@ -115,7 +115,7 @@ const RestaurantMenuDetails = () => {
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setSheetOpen(false)}
-                className="text-white hover:text-custom-pink transition-colors"
+                className="cursor-pointer text-white hover:text-custom-pink transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
               </button>
@@ -192,7 +192,7 @@ const RestaurantMenuDetails = () => {
               </div>
 
               {/* Suspend Button */}
-              <button className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-colors text-sm font-medium">
+              <button className="cursor-pointer w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-colors text-sm font-medium">
                 <Ban className="w-4 h-4" />
                 Suspend
               </button>

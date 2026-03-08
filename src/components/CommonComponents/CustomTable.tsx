@@ -187,14 +187,14 @@ const CustomTable = <T extends Record<string, any>>({
                 className="pl-9 bg-card border-[#2C2740] text-white placeholder:text-muted-foreground h-9 w-full sm:w-56"
               />
             </div>
-            <button className="flex items-center gap-1.5 px-3 h-9 rounded-md border border-[#2C2740] bg-card text-sm text-white hover:bg-[#2C2740] transition-colors">
+            {/* <button className="flex items-center gap-1.5 px-3 h-9 rounded-md border border-[#2C2740] bg-card text-sm text-white hover:bg-[#2C2740] transition-colors">
               <SlidersHorizontal className="w-4 h-4" />
               <span className="hidden sm:inline">Filter</span>
             </button>
             <button className="flex items-center gap-1.5 px-3 h-9 rounded-md border border-[#2C2740] bg-card text-sm text-white hover:bg-[#2C2740] transition-colors">
               <ArrowUpDown className="w-4 h-4" />
               <span className="hidden sm:inline">Sort by</span>
-            </button>
+            </button> */}
           </div>
         )}
       </div>
@@ -244,7 +244,7 @@ const CustomTable = <T extends Record<string, any>>({
                     <TableCell className="text-right py-3 sm:py-4">
                       <button
                         onClick={() => onAction(row)}
-                        className="p-1.5 hover:bg-[#2C2740] rounded-full transition-colors inline-flex items-center justify-center text-custom-pink"
+                        className="cursor-pointer p-1.5 hover:bg-[#2C2740] rounded-full transition-colors inline-flex items-center justify-center text-custom-pink"
                       >
                         <Eye className="w-4 h-4 sm:w-5 sm:h-5" />
                       </button>

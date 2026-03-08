@@ -47,7 +47,7 @@ const SettingsContent = () => {
         </h1>
         <button
           onClick={() => setEditModalOpen(true)}
-          className="flex items-center gap-2 px-4 py-2 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
+          className="cursor-pointer flex items-center gap-2 px-4 py-2 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
         >
           <Pencil className="w-4 h-4" />
           Edit
@@ -86,7 +86,7 @@ const SettingsContent = () => {
           </div>
           <button
             onClick={() => setPasswordModalOpen(true)}
-            className="w-full bg-root-bg rounded-lg px-4 py-3 border border-[#2C2740] flex items-center justify-between hover:bg-[#2C2740]/50 transition-colors"
+            className="cursor-pointer w-full bg-root-bg rounded-lg px-4 py-3 border border-[#2C2740] flex items-center justify-between hover:bg-[#2C2740]/50 transition-colors"
           >
             <span className="text-sm text-muted-foreground">
               Change password
@@ -145,7 +145,7 @@ const SettingsContent = () => {
             {/* Save Button */}
             <button
               onClick={handleSaveProfile}
-              className="w-full py-3 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
+              className="cursor-pointer w-full py-3 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
             >
               Save Changes
             </button>
@@ -196,7 +196,7 @@ const SettingsContent = () => {
                 <button
                   type="button"
                   onClick={() => setShowPassword(!showPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-white"
+                  className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-white"
                 >
                   {showPassword ? (
                     <EyeOff className="w-4 h-4" />
@@ -221,7 +221,7 @@ const SettingsContent = () => {
                 <button
                   type="button"
                   onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-white"
+                  className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-muted-foreground hover:text-white"
                 >
                   {showConfirmPassword ? (
                     <EyeOff className="w-4 h-4" />
@@ -235,7 +235,7 @@ const SettingsContent = () => {
             {/* Change Password Button */}
             <button
               onClick={handleChangePassword}
-              className="w-full py-3 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
+              className="cursor-pointer w-full py-3 rounded-lg bg-button text-white text-sm font-medium hover:bg-button/80 transition-colors"
             >
               Change Password
             </button>

@@ -53,7 +53,7 @@ export function ResetPasswordForm() {
               <button
                 type="button"
                 onClick={() => setShowPassword(!showPassword)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-[#8381a3] hover:text-white transition-colors"
+                className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-[#8381a3] hover:text-white transition-colors"
               >
                 {showPassword ? (
                   <EyeOff className="w-4 h-4" />
@@ -81,7 +81,7 @@ export function ResetPasswordForm() {
               <button
                 type="button"
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-[#8381a3] hover:text-white transition-colors"
+                className="cursor-pointer absolute right-3 top-1/2 -translate-y-1/2 text-[#8381a3] hover:text-white transition-colors"
               >
                 {showConfirmPassword ? (
                   <EyeOff className="w-4 h-4" />
@@ -95,7 +95,7 @@ export function ResetPasswordForm() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
+            className="cursor-pointer w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
           >
             Change Password
           </button>

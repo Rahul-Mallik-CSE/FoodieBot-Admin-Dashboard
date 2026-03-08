@@ -51,7 +51,7 @@ export function ForgotPasswordForm() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
+            className="cursor-pointer w-full h-10 rounded-lg bg-[#8425fd] hover:bg-[#7320e0] text-white text-sm font-semibold transition-colors shadow-[0_0_20px_rgba(132,37,253,0.35)]"
           >
             Send Code
           </button>

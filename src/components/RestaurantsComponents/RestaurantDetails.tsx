@@ -85,7 +85,7 @@ const RestaurantDetails = () => {
       <div className="flex items-center gap-3">
         <button
           onClick={() => router.back()}
-          className="text-white hover:text-custom-pink transition-colors"
+          className="cursor-pointer text-white hover:text-custom-pink transition-colors"
         >
           <ArrowLeft className="w-5 h-5" />
         </button>
@@ -116,7 +116,7 @@ const RestaurantDetails = () => {
               </p>
             </div>
           </div>
-          <button className="flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-colors text-sm">
+          <button className="cursor-pointer flex items-center gap-2 px-4 py-2 rounded-lg bg-red-500/20 text-red-400 hover:bg-red-500/30 transition-colors text-sm">
             <Ban className="w-4 h-4" />
             Disable Account
           </button>

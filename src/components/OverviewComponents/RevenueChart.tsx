@@ -43,7 +43,7 @@ const RevenueChart = () => {
               <span className="text-muted-foreground">Last week</span>
             </div>
           </div>
-          <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-[#2C2740] bg-transparent text-sm text-white">
+          <button className="cursor-pointer flex items-center gap-1.5 px-3 py-1.5 rounded-md border border-[#2C2740] bg-transparent text-sm text-white">
             {timeRange}
             <ChevronDown className="w-4 h-4" />
           </button>

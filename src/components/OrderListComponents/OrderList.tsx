@@ -75,7 +75,7 @@ const OrderList = () => {
             <div className="flex items-center gap-3">
               <button
                 onClick={() => setSheetOpen(false)}
-                className="text-white hover:text-custom-pink transition-colors"
+                className="cursor-pointer text-white hover:text-custom-pink transition-colors"
               >
                 <ArrowLeft className="w-5 h-5" />
               </button>
@@ -183,7 +183,7 @@ const OrderList = () => {
             </div>
 
             {/* Print Button */}
-            <button className="w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-custom-pink text-white text-sm font-medium hover:bg-custom-pink/80 transition-colors">
+            <button className="cursor-pointer w-full flex items-center justify-center gap-2 py-3 rounded-lg bg-custom-pink text-white text-sm font-medium hover:bg-custom-pink/80 transition-colors">
               <Printer className="w-4 h-4" />
               Print Invoice
             </button>
