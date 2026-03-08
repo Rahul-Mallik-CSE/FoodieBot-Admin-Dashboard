@@ -1,9 +1,7 @@
-import React from 'react'
+/** @format */
 
-const SignInPage = () => {
-  return (
-    <div>SignInPage</div>
-  )
+import { SignInForm } from "@/components/AuthComponents/SignInForm";
+
+export default function SignInPage() {
+  return <SignInForm />;
 }
-
-export default SignInPage
