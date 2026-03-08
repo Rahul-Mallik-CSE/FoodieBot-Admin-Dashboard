@@ -26,6 +26,11 @@ import {
 } from "lucide-react";
 import { Button } from "../ui/button";
 import LogoutModal from "./LogOutModal";
+import { LuUsers } from "react-icons/lu";
+import { IoIosRestaurant } from "react-icons/io";
+import { FaMoneyBill1Wave } from "react-icons/fa6";
+import { TbClipboardText } from "react-icons/tb";
+import { PiListPlusFill } from "react-icons/pi";
 
 export default function DashboardSidebar() {
   const { state } = useSidebar();
@@ -42,24 +47,29 @@ export default function DashboardSidebar() {
       label: "Dashboard",
     },
     {
-      href: "/sessions",
-      icon: Calendar,
-      label: "Sessions",
+      href: "/users",
+      icon: LuUsers,
+      label: "Users",
     },
     {
-      href: "/booking-list",
-      icon: Briefcase,
-      label: "Booking List",
+      href: "/restaurants",
+      icon: IoIosRestaurant,
+      label: "Restaurants",
     },
     {
       href: "/earnings",
-      icon: Bell,
+      icon: FaMoneyBill1Wave,
       label: "Earnings",
     },
     {
-      href: "/arena-management",
-      icon: Settings,
-      label: "Arena Management",
+      href: "/restaurants-menu",
+      icon: TbClipboardText,
+      label: "Restaurants Menu",
+    },
+    {
+      href: "/order-list",
+      icon: PiListPlusFill,
+      label: "Order List",
     },
     {
       href: "/settings",
