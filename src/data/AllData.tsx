@@ -92,9 +92,9 @@ export const userDetail: UserDetail = {
   name: "Malik Ahmed",
   avatar: "/food.png",
   email: "name0202@gmail.com",
-  totalScan: "name0202@gmail.com",
-  aiUse: "name0202@gmail.com",
-  totalOrder: "name0202@gmail.com",
+  totalScan: "25",
+  aiUse: "18",
+  totalOrder: "42",
 };
 
 export const userOrderHistory: UserOrderHistory[] = Array.from(

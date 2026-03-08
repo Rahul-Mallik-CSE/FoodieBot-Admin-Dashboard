@@ -90,7 +90,7 @@ const RestaurantDetails = () => {
           <ArrowLeft className="w-5 h-5" />
         </button>
         <h1 className="text-xl sm:text-2xl font-semibold text-white">
-          User Details
+          Restaurant Details
         </h1>
       </div>
 
@@ -112,7 +112,7 @@ const RestaurantDetails = () => {
                 {restaurantDetail.name}
               </h2>
               <p className="text-sm text-muted-foreground">
-                User ID: {restaurantDetail.id}
+                Restaurant ID: {restaurantDetail.id}
               </p>
             </div>
           </div>
