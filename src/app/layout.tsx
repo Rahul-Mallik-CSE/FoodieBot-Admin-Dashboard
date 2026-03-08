@@ -37,7 +37,10 @@ export default function RootLayout({
           <SidebarInset className="overflow-x-hidden">
             <div className={` bg-root-bg min-h-screen `}>
               <NavBar />
-              {children}
+              <div className="w-full">
+                {/* Container for page content */}
+                <div className="max-w-625 mx-auto">{children}</div>
+              </div>
             </div>
           </SidebarInset>
         </SidebarProvider>
